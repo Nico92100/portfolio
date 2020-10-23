@@ -1,13 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
-background: url('assets/images/background.jpeg');
-font-family: arial;
-  color: grey;
+  background-image: url("https://source.unsplash.com/WLUHO9A_xik/1600x900");
+  color: white;
   font-size: 30px;
   font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+background-size: cover;
+transition: transform 2s ;
 }
 
-img {
-  border-radius: 150%;
+.imgprofil {
+  border-radius: 50%;
   box-shadow: 0px 10px 50px;
+  width: 100px;
+  margin-top: 100px;
+
+}
+
+.container {
+  width: 500px;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.card{
+
+  padding: 40px;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: 1px solid white;
+box-shadow: 0px 10px 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+  font-size: 25px;
+}
+a:hover {
+opacity: 0.2;
+color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
